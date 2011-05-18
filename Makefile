@@ -32,12 +32,12 @@ spec_vendor := The SUAsync Authors
 # Semantic Versioning (see http://semver.org/).
 spec_version := 1.3.1
 suasync_SOURCES := \
-	src/Callback.java	\
-	src/CallbackOverflowError.java	\
-	src/Deferred.java	\
-	src/DeferredGroupException.java	\
-	src/DeferredGroup.java	\
-	src/TimeoutException.java	\
+	src/com/stumbleupon/async/Callback.java	\
+	src/com/stumbleupon/async/CallbackOverflowError.java	\
+	src/com/stumbleupon/async/Deferred.java	\
+	src/com/stumbleupon/async/DeferredGroupException.java	\
+	src/com/stumbleupon/async/DeferredGroup.java	\
+	src/com/stumbleupon/async/TimeoutException.java	\
 
 SLF4J_API_VERSION := 1.6.0
 suasync_LIBADD := libs/slf4j-api-$(SLF4J_API_VERSION).jar
